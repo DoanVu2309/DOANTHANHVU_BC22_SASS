@@ -1,0 +1,149 @@
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url(./../images/yellow_top_wave_01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#collapsibleNavbar .nav-item {
+  padding: 0 15px;
+}
+
+#collapsibleNavbar .nav-link {
+  color: #000;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+#collapsibleNavbar .nav-link:hover {
+  color: #d8cdef;
+}
+
+.btnNumHead {
+  background-color: #b61984;
+  color: #fff;
+  border: 1px solid #b61984;
+  border-radius: 18px;
+  padding: 5px 10px;
+  transition: all 300ms ease;
+}
+
+.btnNumHead:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#aboutUs .textUs {
+  justify-content: center;
+  align-self: center;
+}
+
+#aboutUs .textUs .taskUs {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #b61984;
+  font-size: 1.5rem;
+}
+
+#aboutUs .textUs .titleUs {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#teacher {
+  background-image: url(./../images/Violet_top_left_wave.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#find form {
+  padding-top: 30px;
+  background-color: #fff;
+}
+
+#find .findRow {
+  margin-top: 15px;
+}
+
+footer {
+  background-image: url(./../images/footer_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  color: #fff;
+  padding-top: 1rem;
+}
+
+footer ul {
+  list-style: none;
+  margin-left: -2.5rem;
+}
+
+footer ul li {
+  padding: 0.5rem 0;
+}
+
+footer ul li h3 {
+  font-weight: 700;
+}
+
+footer ul .social {
+  padding-right: 1rem;
+  transition: all 0.5s;
+}
+
+footer ul .social:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+footer ul .linkAbout {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer ul .linkAbout a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+footer ul .linkAbout a:hover {
+  color: #d8cdef;
+  cursor: pointer;
+}
+
+footer .ebtn {
+  margin: 3rem 0 1.5rem 0;
+}
+
+footer .ebtn .email {
+  padding: 0.8rem;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-transform: lowercase;
+}
+
+footer .ebtn .email::placeholder {
+  color: #fff;
+}
+
+footer .ebtn .button {
+  padding: 0.8rem 4.2rem;
+  margin: 0.5rem 0;
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+}
+
+footer .ebtn .button:hover {
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */

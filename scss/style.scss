@@ -1,0 +1,152 @@
+// background
+$background-color1: #b61984;
+$background-color2: #d8cdef;
+$background-color3: #fcb900;
+$background-color4: #fff;
+// color
+$color-white: #fff;
+$color-black: #000;
+$color-blue1: #b61984;
+$color-blue2: #d8cdef;
+// font size
+$font-size1: 1rem;
+$font-size2: 1.5rem;
+$font-size3: 2rem;
+$font-size4: 4rem;
+// font weight
+$font-weight1: 600;
+$font-weight2: 700;
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(./../images/yellow_top_wave_01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#collapsibleNavbar {
+    .nav-item {
+        padding: 0 15px;
+    }
+    .nav-link {
+        color: $color-black;
+        font-weight: $font-weight1;
+        transition: all 0.5s;
+        &:hover {
+            color: $color-blue2;
+        }
+    }
+}
+
+.btnNumHead {
+    background-color: $background-color1;
+    color: $color-white;
+    border: 1px solid #b61984;
+    border-radius: 18px;
+    padding: 5px 10px;
+    transition: all 300ms ease;
+    &:hover {
+        background-color: $background-color4;
+        color: $color-black;
+    }
+}
+
+#aboutUs {
+    background-image: url(./../images/Violet_top_left_wave.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .textUs {
+        justify-content: center;
+        align-self: center;
+        .taskUs {
+            text-transform: uppercase;
+            font-weight: $font-weight1;
+            color: $color-blue1;
+            font-size: $font-size2;
+        }
+        .titleUs {
+            font-size: $font-size4;
+            font-weight: $font-weight2;
+        }
+    }
+}
+
+#find {
+    form {
+        padding-top: 30px;
+        background-color: $background-color4;
+        box-shadow: 0 30px 30px -10px rgb(0 0 0 / 20%);
+        border-radius: 10px;
+    }
+    .findRow {
+        margin-top: 15px;
+    }
+}
+
+footer {
+    background-image: url(./../images/footer_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: $color-white;
+    padding-top: 1rem;
+    ul {
+        list-style: none;
+        margin-left: -2.5rem;
+        li {
+            padding: 0.5rem 0;
+            h3 {
+                font-weight: $font-weight2;
+            }
+        }
+        .social {
+            padding-right: 1rem;
+            transition: all 0.5s;
+            &:hover {
+                color: $color-black;
+                cursor: pointer;
+            }
+        }
+        .linkAbout {
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            a {
+                color: $color-white;
+                text-decoration: none;
+                transition: all 0.5s;
+                &:hover {
+                    color: $color-blue2;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .ebtn {
+        margin: 3rem 0 1.5rem 0;
+        .email {
+            padding: 0.8rem;
+            text-align: center;
+            background-color: transparent;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, .1);
+            text-transform: lowercase;
+            &::placeholder {
+                color: $color-white;
+            }
+        }
+        .button {
+            padding: 0.8rem 4.2rem;
+            margin: 0.5rem 0;
+            border-radius: 30px;
+            border: none;
+            text-transform: uppercase;
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
